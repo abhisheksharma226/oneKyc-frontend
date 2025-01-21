@@ -1,16 +1,17 @@
 import React from "react";
 import wave from "../../assets/wave Gif.gif";
-import { FaReact } from "react-icons/fa";
-import { FaShuttleSpace, FaSpaceAwesome } from "react-icons/fa6";
+import { FaReact,FaShieldAlt } from "react-icons/fa";
+import { FaShuttleSpace, FaSpaceAwesome,  } from "react-icons/fa6";
 
 const ServiceData = [
   {
-    title: "HST",
-    content: "300-1500km",
-    description:
-      "Used for astronomical observations, capturing stunning images of the universe.",
-    icon: <FaReact className="text-7xl" />,
-    aosDelay: "300",
+   title: "OneKYC Premium",
+content: "₹499/year",
+description:
+  "Get secure access to your verified KYC records, reusable across multiple financial institutions. Save time and simplify your transactions with advanced security and privacy features.",
+icon: <FaShieldAlt className="text-7xl" />,
+aosDelay: "300",
+
   },
   {
     title: "ISS",
