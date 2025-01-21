@@ -1,9 +1,20 @@
 import React from "react";
 import wave from "../../assets/wave Gif.gif";
-import { FaReact,FaShieldAlt } from "react-icons/fa";
+import { FaShieldAlt,FaLock,FaUserShield } from "react-icons/fa";
 import { FaShuttleSpace, FaSpaceAwesome,  } from "react-icons/fa6";
 
 const ServiceData = [
+
+  {
+    title: "OneKYC Basic",
+content: "₹299/year",
+description:
+  "Access and store your KYC records securely in one place. Ideal for individuals looking for a simple and cost-effective KYC solution.",
+icon: <FaUserShield className="text-7xl" />,
+aosDelay: "700",
+
+  },
+
   {
    title: "OneKYC Premium",
 content: "₹499/year",
@@ -14,21 +25,15 @@ aosDelay: "300",
 
   },
   {
-    title: "ISS",
-    content: "500-1500km",
-    description:
-      ", it's a habitable artificial satellite orbiting Earth and serves as a space environment research laboratory",
-    icon: <FaShuttleSpace className="text-7xl" />,
-    aosDelay: "500",
+    title: "OneKYC Pro",
+content: "₹999/year",
+description:
+  "Experience priority support, faster verification, and advanced features for managing your KYC securely. Perfect for businesses and frequent users needing seamless access to KYC records.",
+icon: <FaLock className="text-7xl" />,
+aosDelay: "500",
+
   },
-  {
-    title: "GPS",
-    content: "300-1500km",
-    description:
-      "Part of the Global Positioning System (GPS) used for navigation.",
-    icon: <FaSpaceAwesome className="text-7xl" />,
-    aosDelay: "700",
-  },
+  
 ];
 const HeroCard = () => {
   return (
