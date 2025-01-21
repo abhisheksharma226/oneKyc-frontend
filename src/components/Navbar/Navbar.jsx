@@ -10,23 +10,28 @@ const Navbar = () => {
       >
         <div className="container">
           <div className="flex justify-between items-center">
-            <div className="flex items-center gap-4 text-white font-bold text-2xl">
-              <img src={Logo} alt="" className="w-10" />
-              <span>TCJ-SPACE</span>
-            </div>
+          <div className="flex items-center gap-4 text-white font-bold text-2xl">
+          <img src={Logo} alt="Logo" className="w-20 h-auto object-contain" />
+
+              {/* <span>One-KYC</span> */}
+</div>
+
             <div className="text-white hidden sm:block">
               <ul className="flex items-center gap-6 text-xl py-4 ">
                 <li>
-                  <a href="#">About</a>
+                  <a href="#">Home</a>
+                </li>
+                {/* <li>
+                  <a href="#">Features</a>
+                </li> */}
+                <li>
+                  <a href="#">Pricing</a>
                 </li>
                 <li>
-                  <a href="#">Technology</a>
+                  <a href="#">Developers</a>
                 </li>
                 <li>
-                  <a href="#">Galaxy</a>
-                </li>
-                <li>
-                  <a href="#">Satelite</a>
+                  <a href="#">Registration</a>
                 </li>
               </ul>
             </div>
