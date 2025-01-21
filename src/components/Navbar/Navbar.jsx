@@ -1,5 +1,7 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
   return (
@@ -36,9 +38,11 @@ const Navbar = () => {
               </ul>
             </div>
             <div>
+              <Link to="/login">
               <button className=" text-white border-2 border-white px-3 py-1 rounded-md">
                 Login
               </button>
+              </Link>
             </div>
           </div>
         </div>

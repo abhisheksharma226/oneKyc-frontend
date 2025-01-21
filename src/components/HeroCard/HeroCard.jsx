@@ -14,7 +14,6 @@ icon: <FaUserShield className="text-7xl" />,
 aosDelay: "700",
 
   },
-
   {
    title: "OneKYC Premium",
 content: "₹499/year",
